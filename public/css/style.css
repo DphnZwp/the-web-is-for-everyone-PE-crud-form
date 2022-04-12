@@ -283,9 +283,15 @@ button[type='submit'] {
 }
 
 /* TABLET */
-@media (min-width: 50em) {
+@media (min-width: 45em) {
   .background-image {
-    height: 12em;
+    height: 10.5em;
+  }
+}
+
+@media (min-width: 60em) {
+  .background-image {
+    height: 14em;
   }
 }
 /* LAPTOP */
