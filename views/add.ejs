@@ -1,0 +1,52 @@
+<%- include('./partials/head') %>
+
+<section class="hero">
+  <h1><%= title %></h1>
+  <p>Hier is een overzicht met smartzones. Je kan ook smartzones toevoegen door een formulier in te vullen.</p>
+  <a class="button-smartzones" href="/">Alle smart zones</a>
+</section>
+
+<form action="/toevoegen" method="post">
+  <div>
+    <label for="name">Naam</label>
+    <input type="text" name="name" />
+  </div>
+  <div>
+    <label for="town">Stad</label>
+    <input type="text" name="town" />
+  </div>
+  <div>
+    <label for="location">Locatie</label>
+    <input type="text" name="location" />
+  </div>
+  <div>
+    <label for="function">Functie</label>
+    <input type="text" name="function" />
+  </div>
+  <div>
+    <label for="time">Tijdstip</label>
+    <input type="text" name="time" />
+  </div>
+  <div>
+    <label for="size">Grootte (plek)</label>
+    <input type="text" name="size" />
+  </div>
+  <div>
+    <label for="utilization">Gebruik (%)</label>
+    <input type="text" name="utilization" />
+  </div>
+  <div>
+    <label for="description">Omschrijving</label>
+    <input type="text" name="description" />
+  </div>
+  <div>
+    <label for="image">Foto (url)</label>
+    <input type="text" placeholder="https://foto.com" name="image" />
+  </div>
+  <div class="form-buttons">
+    <button type="submit">Toevoegen</button>
+    <button type="reset">Annuleren</button>
+  </div>
+</form>
+
+<%- include('./partials/foot') %>

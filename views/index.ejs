@@ -1,0 +1,64 @@
+<%- include('./partials/head') %>
+	<section class="hero">
+		<h1><%= title %></h1>
+		<p>Hier is een overzicht met smartzones. Je kan ook smartzones toevoegen door een formulier in te vullen.</p>
+		<a class="button-post" href="/toevoegen">Smartzone toevoegen</a>
+	</section>
+
+  <section class="tables">
+    <% 
+    smartzones
+      .forEach((smartzone) => { %>
+      <table>
+        <tbody>
+        <tr class="background-image">
+					<th><%- smartzone.name %></th>
+        </tr>
+        <tr>
+					<th>Stad</th>
+        </tr>
+        <tr>
+					<td><%- smartzone.town %></td>
+        </tr>
+        <tr>
+					<th>Locatie</th>
+        </tr>
+        <tr>
+					<td><%- smartzone.location %></td>
+        </tr>
+        <tr>
+					<th>functie</th>
+        </tr>
+        <tr>
+					<td><%- smartzone.function %></td>
+        </tr>
+				<tr>
+					<th>Tijdstip</th>
+				</tr>
+				<tr>
+					<td><%- smartzone.time %></td>
+				</tr>
+				<tr>
+					<th>Grootte (plek)</th>
+				</tr>
+				<tr>
+					<td><%- smartzone.size %></td>
+				</tr>
+				<tr>
+					<th>Gebruik (%)</th>
+				</tr>
+				<tr>
+					<td><%- smartzone.utilization %></td>
+				</tr>
+				<tr>
+					<th>Omschrijving</th>
+				</tr>
+				<tr>
+					<td><%- smartzone.description %></td>
+				</tr>
+        </tbody></table>
+        <img class="image-table" src="<%- smartzone.image %>" alt="Google maps afbeelding">
+    <% }) %>
+  </section>
+
+<%- include('./partials/foot') %>
