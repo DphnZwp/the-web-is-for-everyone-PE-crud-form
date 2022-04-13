@@ -2,7 +2,7 @@ const loadingButton = document.querySelector('#loading-button')
 const loadingMessage = document.querySelector('.loading-text')
 // POST variables
 const apiBase = 'https://codingthecurbs.api.fdnd.nl/v1/smartzone'
-const smartzonePostForm = document.querySelector('form#smartzonePostForm')
+// const smartzonePostForm = document.querySelector('form#smartzonePostForm')
 
 loadingButton.addEventListener('click', () => {
       loadingMessage.classList.add('loading-show')
