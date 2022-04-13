@@ -282,6 +282,17 @@ button[type='submit'] {
   margin-right: 1em;
 }
 
+.loading-text {
+  display: none;
+}
+
+.loading-show {
+  padding: 3em;
+  color: var(--white);
+  background-color: var(--blue);
+  display: block;
+}
+
 /* TABLET */
 @media (min-width: 45em) {
   .background-image {

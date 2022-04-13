@@ -1,8 +1,7 @@
 <%- include('./partials/head') %>
-
 <section class="hero">
   <h1><%= title %></h1>
-  <p>Hier is een overzicht met smartzones. Je kan ook smartzones toevoegen door een formulier in te vullen.</p>
+  <p>Hier kan je een smartzone met het formulier toevoegen..</p>
   <a class="button-smartzones" href="/">Alle smart zones</a>
 </section>
 
@@ -44,9 +43,15 @@
     <input type="text" placeholder="https://foto.com" name="image" />
   </div>
   <div class="form-buttons">
-    <button type="submit">Toevoegen</button>
+    <button id="loading-button" type="submit">Toevoegen</button>
     <button type="reset">Annuleren</button>
   </div>
 </form>
+
+<section class="loading-text">
+  <p>
+    Aan het laden... Je smartzone wordt verstuurd.
+  </p>
+</section>
 
 <%- include('./partials/foot') %>
