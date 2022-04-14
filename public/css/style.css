@@ -302,11 +302,25 @@ button[type='submit'] {
   display: none;
 }
 
+.loading-text>img {
+  width: 8em;
+  animation: rotate 1.2s linear infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .loading-show {
-  padding: 3em;
-  color: var(--white);
-  background-color: var(--blue);
-  display: block;
+  margin-top: 0.5em;
+  text-align: center;
+  display: grid;
+  place-items: center;
 }
 
 /* TABLET */
