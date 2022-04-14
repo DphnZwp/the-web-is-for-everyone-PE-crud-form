@@ -303,6 +303,7 @@ button[type='submit'] {
 }
 
 .loading-text>img {
+  margin-top: 1.25em;
   width: 8em;
   animation: rotate 1.2s linear infinite;
 }
