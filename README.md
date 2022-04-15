@@ -12,6 +12,17 @@
 ## Code
 <!-- Toon hier de verschillende technieken die je gebruikt en hoe je dit met de CSS cascade en/of JS feature detect hebt gecodeerd -->
 <!-- documenteer het onderzoek met de browser ondersteuning in de WIKI van de leertaak -->
+
+### Form loading message
+```javascript
+const loadingButton = document.querySelector('#loading-button')
+const loadingMessage = document.querySelector('.loading-text')
+
+loadingButton.addEventListener('click', () => {
+   loadingMessage.classList.add('loading-show')
+})
+```
+
 ### Server side post
 ```javascript
 // POST form
