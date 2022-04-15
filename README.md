@@ -17,7 +17,7 @@ Ik heb Figma gebruikt om meer te oefenen met Figma.
 <!-- documenteer het onderzoek met de browser ondersteuning in de WIKI van de leertaak -->
 
 ### JavaScript form loading state
-Wanneer JavaScript uitstaat krijg je deze loading state niet te zien
+Wanneer JavaScript uitstaat krijg je deze loading state niet te zien.
 ```javascript
 const loadingButton = document.querySelector('#loading-button')
 const loadingMessage = document.querySelector('.loading-text')
