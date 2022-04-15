@@ -13,7 +13,7 @@
 <!-- Toon hier de verschillende technieken die je gebruikt en hoe je dit met de CSS cascade en/of JS feature detect hebt gecodeerd -->
 <!-- documenteer het onderzoek met de browser ondersteuning in de WIKI van de leertaak -->
 
-### JavaScript form loading message
+### JavaScript form loading state
 ```javascript
 const loadingButton = document.querySelector('#loading-button')
 const loadingMessage = document.querySelector('.loading-text')
