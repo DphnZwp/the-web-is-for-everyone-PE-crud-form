@@ -13,7 +13,7 @@
 <!-- Toon hier de verschillende technieken die je gebruikt en hoe je dit met de CSS cascade en/of JS feature detect hebt gecodeerd -->
 <!-- documenteer het onderzoek met de browser ondersteuning in de WIKI van de leertaak -->
 
-### Form loading message
+### JavaScript form loading message
 ```javascript
 const loadingButton = document.querySelector('#loading-button')
 const loadingMessage = document.querySelector('.loading-text')
@@ -23,7 +23,7 @@ loadingButton.addEventListener('click', () => {
 })
 ```
 
-### Server side post
+### Javascript server side post
 ```javascript
 // POST form
 app.post('/toevoegen', urlencodedParser, (request,response) =>{
@@ -46,7 +46,7 @@ app.get('/toevoegen', (request, response) => {
 })
 ```
 
-### Client side post
+### JavaScript client side post
 ```javascript
 const apiBase = 'https://codingthecurbs.api.fdnd.nl/v1/smartzone'
 const smartzonePostForm = document.querySelector('#smartzonePostForm')
