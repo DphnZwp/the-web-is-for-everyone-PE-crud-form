@@ -12,7 +12,57 @@
 ## Code
 <!-- Toon hier de verschillende technieken die je gebruikt en hoe je dit met de CSS cascade en/of JS feature detect hebt gecodeerd -->
 <!-- documenteer het onderzoek met de browser ondersteuning in de WIKI van de leertaak -->
+### Server side post
+```javascript
+// POST form
+app.post('/toevoegen', urlencodedParser, (request,response) =>{
+  const postData = {
+    method: 'post',
+    body: JSON.stringify(request.body),
+    headers: {'Content-Type': 'application/json'}
+  }
+  fetchJson(url, postData).then(function () {
+    response.render('add', {
+      title: 'Smart zone toevoegen',
+    })
+  })
+})
 
+app.get('/toevoegen', (request, response) => {
+    response.render('add', {
+      title: 'Smart zone toevoegen',
+    })
+})
+```
+
+### Client side post
+```javascript
+const apiBase = 'https://codingthecurbs.api.fdnd.nl/v1/smartzone'
+const smartzonePostForm = document.querySelector('#smartzonePostForm')
+
+smartzonePostForm.addEventListener('submit', () => {
+
+let data = {
+   name: document.querySelector('#name').value,
+   town: document.querySelector('#town').value,
+   location: document.querySelector('#location').value,
+   function: document.querySelector('#function').value,
+   time: document.querySelector('#time').value,
+   size: document.querySelector('#size').value,
+   utilization: document.querySelector('#utilization').value,
+   description: document.querySelector('#description').value,
+   image: document.querySelector('#image').value,
+}
+
+fetch(apiBase, {
+   method: 'POST',
+   headers: {
+      'Content-Type': 'application/json',
+   },
+   body: JSON.stringify(data),
+})
+})
+```
 
 ## Licentie
 
