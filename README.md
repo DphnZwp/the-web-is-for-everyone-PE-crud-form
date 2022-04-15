@@ -4,6 +4,7 @@
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## Wireflow
+Ik heb Figma gebruikt om meer te oefenen met Figma.
 ![Desktop - 8](https://user-images.githubusercontent.com/69635977/163650242-3c5317fb-e048-4c3d-9e50-0bea88b0b454.png)
 
 ## Breakdown
