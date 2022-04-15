@@ -75,6 +75,9 @@ fetch(apiBase, {
 })
 ```
 
+### Form success state
+De success state is niet gelukt, maar ik heb hier wel een ontwerp voor gemaakt (zie []()).
+
 ## Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
