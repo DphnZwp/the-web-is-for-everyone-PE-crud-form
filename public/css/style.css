@@ -278,22 +278,6 @@ form input:focus {
   display: flex;
 }
 
-#clientPostForm {
-  display: none;
-}
-
-.clientPostForm-show {
-  display: block;
-}
-
-#serverPostForm {
-  display: block;
-}
-
-.serverPostForm-dissapear {
-  display: none;
-}
-
 button[type='submit'] {
   margin-right: 1em;
 }
