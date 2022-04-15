@@ -84,7 +84,7 @@ fetch(apiBase, {
 De success state is niet gelukt, maar ik heb hier wel een ontwerp voor gemaakt (zie [https://github.com/DphnZwp/the-web-is-for-everyone-PE-crud-form/wiki/2.-Ontwerpen#success-state](https://github.com/DphnZwp/the-web-is-for-everyone-PE-crud-form/wiki/2.-Ontwerpen#success-state)). Ik had ook geen tijd meer om een error state te maken.
 
 ## Onderzoek
-Onderzoek staat in de [wiki](https://github.com/DphnZwp/the-web-is-for-everyone-PE-crud-form/wiki)
+Onderzoek staat in de [wiki](https://github.com/DphnZwp/the-web-is-for-everyone-PE-crud-form/wiki).
 
 ## Licentie
 
