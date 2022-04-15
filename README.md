@@ -6,7 +6,7 @@
 ## Wireflow
 Ik heb Figma gebruikt om meer te oefenen met Figma.
 
-![Desktop - 8](https://user-images.githubusercontent.com/69635977/163650242-3c5317fb-e048-4c3d-9e50-0bea88b0b454.png)
+![Desktop - 8 (1)](https://user-images.githubusercontent.com/69635977/163650341-7b659065-c6a1-49fc-830d-3b8288c012db.png)
 
 ## Breakdown
 <!-- Toon hier de Breakdown met de pseudo code en de verschillende lagen van Progressive enhancement -->
