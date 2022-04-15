@@ -9,13 +9,15 @@ Ik heb Figma gebruikt om meer te oefenen met Figma.
 ![Desktop - 8 (1)](https://user-images.githubusercontent.com/69635977/163650341-7b659065-c6a1-49fc-830d-3b8288c012db.png)
 
 ## Breakdown
-<!-- Toon hier de Breakdown met de pseudo code en de verschillende lagen van Progressive enhancement -->
+
+![Desktop - 8 (2)](https://user-images.githubusercontent.com/69635977/163651563-cf99eb91-7ce3-470d-858c-0191d878f2ce.png)
 
 ## Code
 <!-- Toon hier de verschillende technieken die je gebruikt en hoe je dit met de CSS cascade en/of JS feature detect hebt gecodeerd -->
 <!-- documenteer het onderzoek met de browser ondersteuning in de WIKI van de leertaak -->
 
 ### JavaScript form loading state
+Wanneer JavaScript uitstaat krijg je deze loading state niet te zien
 ```javascript
 const loadingButton = document.querySelector('#loading-button')
 const loadingMessage = document.querySelector('.loading-text')
@@ -49,6 +51,7 @@ app.get('/toevoegen', (request, response) => {
 ```
 
 ### JavaScript client side post
+Wanneer JavaScript uitstaat wordt het formulier verstuurd met de server side.
 ```javascript
 const apiBase = 'https://codingthecurbs.api.fdnd.nl/v1/smartzone'
 const smartzonePostForm = document.querySelector('#smartzonePostForm')
