@@ -76,7 +76,7 @@ fetch(apiBase, {
 ```
 
 ### Form success state
-De success state is niet gelukt, maar ik heb hier wel een ontwerp voor gemaakt (zie []()).
+De success state is niet gelukt, maar ik heb hier wel een ontwerp voor gemaakt (zie [https://github.com/DphnZwp/the-web-is-for-everyone-PE-crud-form/wiki/2.-Ontwerpen#success-state](https://github.com/DphnZwp/the-web-is-for-everyone-PE-crud-form/wiki/2.-Ontwerpen#success-state)).
 
 ## Licentie
 
