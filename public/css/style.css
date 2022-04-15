@@ -283,7 +283,7 @@ button[type='submit'] {
 }
 
 .loading-text {
-  display: none;
+  opacity: 0;
 }
 
 .loading-text>img {
@@ -306,6 +306,7 @@ button[type='submit'] {
   text-align: center;
   display: grid;
   place-items: center;
+  opacity: 1;
 }
 
 /* TABLET */
